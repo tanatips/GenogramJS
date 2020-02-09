@@ -8,16 +8,16 @@ var data = [
         "sex":"Male",
         "father_id":"-1",
         "mother_id":"-2",
-        "relationships":[
-            {
-                "id":"11",
-                "relationStatus":"married"
-            },
-            {
-                "id":"12",
-                "relationStatus":"divorce"
-            }
-        ],
+        // "relationships":[
+        //     {
+        //         "id":"11",
+        //         "relationStatus":"married"
+        //     },
+        //     {
+        //         "id":"12",
+        //         "relationStatus":"divorce"
+        //     }
+        // ],
         "status":"live"
     },
     {
@@ -28,7 +28,7 @@ var data = [
         "sex":"Female",
         "father_id":"-3",
         "mother_id":"-4",
-        "relationships":"married",
+        //"relationships":"married",
         "status":"live"
     },
     {
@@ -50,7 +50,8 @@ var data = [
         "father_id":"1",
         "mother_id":"2",
         "status":"live"
-    },
+    }
+    ,
     {
         "id":"5",
         "first_name":"Mr. 5",
@@ -60,7 +61,8 @@ var data = [
         "father_id":"1",
         "mother_id":"2",
         "status":"live"
-    },
+    }
+     ,
     {
         "id":"6",
         "first_name":"Mr. 6",
@@ -70,7 +72,8 @@ var data = [
         "father_id":"1",
         "mother_id":"2",
         "status":"dead"
-    },
+    }
+     ,
     {
         "id":"7",
         "first_name":"Mr. 7",
@@ -80,13 +83,6 @@ var data = [
         "father_id":"1",
         "mother_id":"2",
         "status":"Pregnancy",
-        "mate": [
-                {
-                    "id":"8"
-                },{
-                    "id":"9"
-                }
-            ]
     },
     {
         "id":"8",
@@ -97,7 +93,8 @@ var data = [
         "father_id":"1",
         "mother_id":"2",
         "status":"live"
-    },
+    }
+    ,
     {
         "id":"9",
         "first_name":"Mr. 9",
@@ -140,7 +137,8 @@ var data = [
         "father_id":"-1",
         "mother_id":"-2",
         "status":"live"
-    } ,
+    }
+    ,
     {
         "id":"13",
         "first_name":"Mr. 10",
@@ -150,17 +148,9 @@ var data = [
         "father_id":"3",
         "mother_id":"12",
         "status":"live"
-    },
-    {
-        "id":"14",
-        "first_name":"Mr. 10",
-        "last_name":"last",
-        "birthday":'01/01/1997',
-        "sex":"Male",
-        "father_id":"3",
-        "mother_id":"12",
-        "status":"live"
-    },
+    }
+    
+    ,
     {
         "id":"15",
         "first_name":"Mr. 15",
@@ -170,10 +160,11 @@ var data = [
         "father_id":"13",
         "mother_id":"16",
         "status":"live"
-    },
+    }
+    ,
     {
         "id":"16",
-        "first_name":"Mr. 15",
+        "first_name":"Mr. 16",
         "last_name":"last",
         "birthday":'01/01/1997',
         "sex":"Male",
@@ -181,12 +172,157 @@ var data = [
         "mother_id":"-2",
         "status":"live"
     }
+    ,
+    {
+        "id":"17",
+        "first_name":"Mr. 17",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Female",
+        "father_id":"-2",
+        "mother_id":"-2",
+        "status":"live"
+    },
+    {
+        "id":"18",
+        "first_name":"Mr. 17",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Female",
+        "father_id":"13",
+        "mother_id":"16",
+        "status":"live"
+    }
+    ,
+    {
+        "id":"19",
+        "first_name":"Mr. 19",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Female",
+        "father_id":"13",
+        "mother_id":"16",
+        "status":"live"
+    },
+    {
+        "id":"20",
+        "first_name":"Mr. 19",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Male",
+        "father_id":"-1",
+        "mother_id":"-1",
+        "status":"live"
+    },
+    {
+        "id":"21",
+        "first_name":"Mr. 21",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Male",
+        "father_id":"20",
+        "mother_id":"19",
+        "status":"live"
+    },
+    {
+        "id":"22",
+        "first_name":"Mr. 21",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Male",
+        "father_id":"4",
+        "mother_id":"17",
+        "status":"live"
+    },
+    {
+        "id":"23",
+        "first_name":"Mr. 21",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Male",
+        "father_id":"",
+        "mother_id":"",
+        "status":"live"
+    },
+    {
+        "id":"24",
+        "first_name":"Mr. 21",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Male",
+        "father_id":"5",
+        "mother_id":"23",
+        "status":"live"
+    },
+    {
+        "id":"25",
+        "first_name":"Mr. 21",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Male",
+        "father_id":"",
+        "mother_id":"",
+        "status":"live"
+    },
+    {
+        "id":"26",
+        "first_name":"Mr. 21",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Male",
+        "father_id":"21",
+        "mother_id":"25",
+        "status":"live"
+    },
+    {
+        "id":"27",
+        "first_name":"Mr. 21",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Female",
+        "father_id":"21",
+        "mother_id":"25",
+        "status":"live"
+    },
+    {
+        "id":"28",
+        "first_name":"Mr. 28",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Male",
+        "father_id":"24",
+        "mother_id":"27",
+        "status":"live"
+    }
+    ,
+    {
+        "id":"29",
+        "first_name":"Mr. 28",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Male",
+        "father_id":"24",
+        "mother_id":"27",
+        "status":"live"
+    }
+    ,
+    {
+        "id":"30",
+        "first_name":"Mr. 28",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Female",
+        "father_id":"24",
+        "mother_id":"27",
+        "status":"live"
+    }
+    
 ];
 var spouse = [
         {
             "id1":"1",
             "id2":"2",
-            "relationStatus":"divorce"
+            "relationStatus":"married"
         }
         ,
         {
@@ -199,12 +335,35 @@ var spouse = [
             "id2":"16",
             "relationStatus":"divorce"
         }
+        ,
+        {
+            "id1":"4",
+            "id2":"17",
+            "relationStatus":"divorce"
+        }
+        ,
+        {
+            "id1":"19",
+            "id2":"20",
+            "relationStatus":"divorce"
+        },
+        {
+            "id1":"5",
+            "id2":"23",
+            "relationStatus":"married"
+        },
+        {
+            "id1":"24",
+            "id2":"27",
+            "relationStatus":"married"
+        }
     ];
 class genogramSymbol {
     
     constructor(data,spouse){
         this.data= data;
         this.spouse=spouse;
+        this.lstObjLevel = [];
         //alert(JSON.stringify(this.data));
     }
         CMale (idName,x,y){
@@ -239,6 +398,10 @@ class genogramSymbol {
                 if(data [0].status==="Pregnancy")
                 {
                     this.Pregnancy(data[0].id,x,y);
+                }
+                if(data [0].status==="MisCarriage")
+                {
+                    this.MisCarriage(data[0].id,x,y);
                 }
             }
             }
@@ -319,6 +482,7 @@ class genogramSymbol {
             });
         }
         MisCarriage(idName,x,y){
+            
             var obj = document.createElementNS(svgns, 'polygon');
             var width = 50;
             var height = 50;
@@ -343,6 +507,7 @@ class genogramSymbol {
             objLine.setAttributeNS(null, 'y2', y+height);
             objLine.setAttributeNS(null, 'stroke','black');
             objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null, 'id','l'+idName);
             document.getElementById('svgOne').appendChild(objLine);
 
             var objLine2 = document.createElementNS(svgns, 'line');
@@ -352,6 +517,7 @@ class genogramSymbol {
             objLine2.setAttributeNS(null, 'y2', y);
             objLine2.setAttributeNS(null, 'stroke','black');
             objLine2.setAttributeNS(null, 'stroke-width',2);
+            objLine2.setAttributeNS(null, 'id','r'+idName);
             document.getElementById('svgOne').appendChild(objLine2);
 
         }
@@ -497,7 +663,7 @@ class genogramSymbol {
         GetDataById(id){
             var result=[];
             //alert(JSON.stringify(this.data));
-            for(var i = 0;this.data.length;i++){
+            for(var i = 0;i<this.data.length;i++){
                 if(this.data[i]["id"]==id){
                     result.push(this.data[i]);
                     break;
@@ -547,24 +713,28 @@ class genogramSymbol {
                   
                    if(obj1==undefined && list[i].id1!=""){
                         var p = this.GetDataById(list[i].id1);
-                        if(p[0].sex=="Male")
-                        {
-                            this.CMale(p[0].id,200,300);
-                        }
-                        else if(p[0].sex=="Female")
-                        {
-                            this.CFemale(p[0].id,200,300);
+                        if(p.length>0){
+                            if(p[0].sex=="Male")
+                            {
+                                this.CMale(p[0].id,200,300);
+                            }
+                            else if(p[0].sex=="Female")
+                            {
+                                this.CFemale(p[0].id,200,300);
+                            }
                         }
                    }
                    if(obj2==undefined && list[i].id2!="" ){
                     var p = this.GetDataById(list[i].id2);
-                    if(p[0].sex=="Male")
-                    {
-                        this.CMale(p[0].id,x + 150*(i+1),y);
-                    }
-                    else if(p[0].sex=="Female")
-                    {
-                        this.CFemale(p[0].id,x - 150*(i+1),y);
+                    if(p.length>0){
+                        if(p[0].sex=="Male")
+                        {
+                            this.CMale(p[0].id,x + 150*(i+1),y);
+                        }
+                        else if(p[0].sex=="Female")
+                        {
+                            this.CFemale(p[0].id,x - 150*(i+1),y);
+                        }
                     }
                     // var link = new genogramRelationship(this.spouse);
                     // link.SpouseRelationship(main.id,list[i].id2);
@@ -572,8 +742,64 @@ class genogramSymbol {
                 }
             }
         }
-        CreateRelationship(spouse){
-
+        CreateRelationship(id){
+            var obj = this.GetDataById(id);
+            var father_id = 0;
+            var mother_id = 0;
+            if(obj!=null){
+               if(obj.length>0){
+                    father_id = obj[0].father_id;
+                    mother_id = obj[0].mother_id;
+                    var father = document.getElementById(father_id);
+                    var mother = document.getElementById(mother_id);
+                    var lineObj = document.getElementById("line"+father_id+"-"+mother_id);
+                    if(lineObj==null)
+                    {
+                        lineObj = document.getElementById("line"+mother_id+"-"+father_id);
+                    }
+                    var x1=0,y1=0,x2=0,y2=0;
+                    if(lineObj!=null){
+                   
+                    var lstChild =  this.GetChildDataById(father_id,mother_id);
+                    var step = (lineObj.x2.baseVal.value-lineObj.x1.baseVal.value)/(lstChild.length+1);
+                    x1= lineObj.x1.baseVal.value;
+                    y1= lineObj.y1.baseVal.value;
+                    var util = new Utility();
+                    for(var i = 0;i<lstChild.length;i++){
+                        var name = "PC"+lstChild[i].id;
+                        var objChild = document.getElementById(lstChild[i].id);
+                        
+                        var pos = util.GetTopLeftXY(objChild);
+                       
+                        if(pos.length>0){
+                            if(objChild.constructor.name=="SVGRectElement"){
+                                x2= pos[0].x+objChild.width.baseVal.value/2;
+                                y2= pos[0].y;
+                            }
+                            else if(objChild.constructor.name=="SVGCircleElement"){
+                                x2= pos[0].x;
+                                y2= pos[0].y;
+                            }
+                            else if(objChild.constructor.name=="SVGPolygonElement"){
+                                x2= pos[0].x+(objChild.points[1].x-objChild.points[0].x);
+                                y2= pos[0].y;
+                            }
+                            
+                            
+                            var objLine = document.createElementNS(svgns, 'line');
+                            objLine.setAttributeNS(null, 'x1', x1+((1+i)*step));
+                            objLine.setAttributeNS(null, 'y1', y1);
+                            objLine.setAttributeNS(null, 'x2', x2);
+                            objLine.setAttributeNS(null, 'y2', y2);
+                            objLine.setAttributeNS(null, 'stroke','black');
+                            objLine.setAttributeNS(null, 'stroke-width',2);
+                            objLine.setAttributeNS(null,"id","line"+name);
+                            document.getElementById('svgOne').appendChild(objLine);
+                        }
+                    }
+                }
+               }
+            }
         }
         GenerateGenogram(id){
             var result=this.GetDataById(id);
@@ -682,17 +908,35 @@ class genogramSymbol {
             //alert(JSON.stringify(this.GetDataById(result[0].mother_id)));
         }
         GenerateGenogram2(id){
+            var svg = document.getElementById('svgOne');
+            var pt = svg.createSVGPoint();
+            svg.addEventListener("mousemove",function(ev){
+                pt.x = ev.clientX; pt.y = ev.clientY;
+                var loc = pt.matrixTransform(svg.getScreenCTM().inverse());
+                document.title = "x:" +loc.x +" ,y:"+loc.y;
+            });
+            //this.CreateLineMidium();
             var level = 0;
             var result=this.GetDataById(id);
             var dataFather = this.GetDataById(result[0].father_id);
             if(dataFather!=null){
                 this.CMale(dataFather[0].id,200,200);
+                this.lstObjLevel.push(dataFather[0].id);
                 this.GetFamilyDetail(dataFather[0].id,level+1);
-                this.AdjustPosition(dataFather[0].id);
-                this.AdjustPosition(3);
-                this.AdjustPosition(14);
+                this.lstObjLevelInt = this.lstObjLevel.map(x=>+x);
+                this.lstObjLevelIntSort= this.lstObjLevelInt.sort(function(a,b){return a-b});
+                for(var i = 0;i<this.lstObjLevelIntSort.length;i++)
+                {
+                    this.AdjustPosition(this.lstObjLevelIntSort[i],level);
+                    level=level+1;
+                   // this.CreateRelationship(this.lstObjLevel[i])
+                }
                 var rel = new genogramRelationship(this.spouse);
                 rel.CreateSpouseRelationship();
+                for(var i = 0;i<this.lstObjLevelIntSort.length;i++)
+                {
+                    this.CreateRelationship(this.lstObjLevelIntSort[i])
+                }
             }
        }
         GetFamilyDetail (id,level,index){
@@ -734,7 +978,7 @@ class genogramSymbol {
                         for(var j=0;j<dataChilds.length;j++){
                             this.GetFamilyDetail(dataChilds[j].id,level+1,j);
                         }
-                       
+                        this.lstObjLevel.push(dataChilds[0].id);
                     }
                 }
             }
@@ -750,12 +994,14 @@ class genogramSymbol {
                 }
             }
         }
-        AdjustPosition(id){
-            var obj = document.getElementById(id);
+        AdjustPosition(id,level){
+            
             var x1 = 0;
             var y1 = 0;
             var x2 = 0;
             var y2 = 0;
+            
+            var obj = document.getElementById(id);
             var util =new Utility();
             var data = util.GetTopLeftXY(obj);
             var objlst =[];
@@ -763,6 +1009,7 @@ class genogramSymbol {
                 x1= data[0].x;
                 y1= data[0].y;
             }
+            if(obj!=null){
             var lst = obj.nextSibling.ownerSVGElement.childNodes;
             for(var i = 0;i<lst.length;i++){
                 x2=0;
@@ -771,21 +1018,21 @@ class genogramSymbol {
                     var data = util.GetTopLeftXY(lst[i]);
                     if(data.length>0)
                     {
-                        x2 = data[0].x;
+                        //x2 = data[0].x;
                         y2 = data[0].y;
                     }
                 } else if(lst[i].constructor.name=="SVGCircleElement"){
                     var data = util.GetTopLeftXY(lst[i]);
                     if(data.length>0)
                     {
-                        x2 = data[0].x;
+                        //x2 = data[0].x;
                         y2 = lst[i].cy.baseVal.value-lst[i].r.baseVal.value;
                     }
                 } else if(lst[i].constructor.name=="SVGPolygonElement"){
                     var data = util.GetTopLeftXY(lst[i]);
                     if(data.length>0)
                     {
-                        x2 = data[0].x;
+                        //x2 = data[0].x;
                         y2 = data[0].y;
                     }
                 }
@@ -794,22 +1041,115 @@ class genogramSymbol {
                 }
                 //console.log(lst[i].constructor.name);
             }
+            var lstParent =[];
+            for(var i = 0;i<objlst.length;i++){
+                var id = objlst[i].id;
+                var personData = this.GetDataById(id);
+                if(personData.length>0){
+                    lstParent.push({
+                                    "data":personData[0].father_id+","+personData[0].mother_id
+                                   });
+                }
+            }
+            var tmp = Array.from(new Set(lstParent.map(s=>s.data)))
+            .map((data)=>{return {
+                data:data
+            }});
+            var lstSameLevel =[];
+            for(var j=0;j<tmp.length;j++)
+            {
+                lstSameLevel=[];
+            var lineX1=0,lineX2=0,lineY1=0,lineY2=0;
+            var father_id=0,mother_id=0;
+                father_id = tmp[j].data.split(',')[0];
+                mother_id = tmp[j].data.split(',')[1];
+            var lstChildsAndSpouse  =  this.GetlstChildsAndSpouse(father_id,mother_id);
+            var util = new Utility();
+            var father = document.getElementById(father_id);
+            var mother = document.getElementById(mother_id);
+            if(father!=null && mother !=null){
+                var posFather = util.GetTopLeftXY(father);
+                var fwidth = util.GetWidthObject(father);
+                var fheight = util.GetHeightObject(father);
+                if(posFather.length>0){
+                    lineX1=posFather[0].x+(fwidth/2);
+                    lineY1=posFather[0].y+fheight;
+                }
+                
+                var posMother = util.GetTopLeftXY(mother);
+                if(posMother.length>0){
+                    lineX2=posMother[0].x;
+                    lineY2=posMother[0].y+fheight/2;
+                }
+                for(var i = 0;i<lstChildsAndSpouse.length;i++){
+                    var obj = document.getElementById(lstChildsAndSpouse[i].id);
+                    if(obj!=null)
+                    {
+                        lstSameLevel.push(obj);
+                    }
+                }
+                
+            }
+            else{
+                if(level==0)
+                {
+                    lstSameLevel = objlst;
+                }
+            }
             var objSvg = document.getElementById("svgOne");
             var width = objSvg.width.baseVal.value;
             var height = objSvg.height.baseVal.value;
-            var medium = (width)*0.9/2;
-            if(objlst.length>0){
+           // var medium = (width)*0.9/2;
+           var medium = objSvg.width.baseVal.value/2;
+           console.log('medium:'+medium);
+            if(father!=null && mother!=null){
+                width = (lineX2 - lineX1)*2.5;
+                medium = (lineX1+lineX2)/2;
+            }
+           
+            
+            if(lstSameLevel.length>0){
                 //var beginX = (medium/objlst.length);
                 
-                var distinct = (width*0.9)/(objlst.length+1);
-                var beginX = (width*0.05)+distinct;
-                //alert(beginX);
-                for(var i=0;i<objlst.length;i++){
-                    if(objlst[i].constructor.name=="SVGRectElement")
+                var distinct = (width)/(lstSameLevel.length+1);
+                //var beginX = width*0.025+distinct;
+                var beginX = distinct-25;
+                var widthObj = util.GetWidthObject(obj);
+                if(father!=null && mother!=null){
+                    //width = (lineX2 - lineX1);
+                    //medium = (lineX1+lineX2)/2;
+                    distinct = (width)/(lstSameLevel.length+1);
+                    if(distinct<100)
                     {
-                        objlst[i].x.baseVal.value=beginX+(i*distinct);
-                        var l=document.getElementById("l"+objlst[i].id);
-                        var r=document.getElementById("r"+objlst[i].id);
+                        distinct = 100;
+                    }
+                    //beginX = distinct;
+                    //distinct = 150;
+                    var space = (((widthObj)/2+((lstSameLevel.length-1)*distinct)/2));
+                    beginX = medium - space;
+                    console.log("lineX1:"+lineX1);
+                    console.log("lineX2:"+lineX2);
+                    console.log("medium:"+medium);
+                    console.log("space:"+space);
+                    console.log("objlst:"+lstSameLevel.length);
+                    console.log("widthObj:"+widthObj);
+                    console.log("width:"+width);
+                    console.log("beginX:"+beginX);
+                    console.log("distinct:"+distinct);
+                }
+                // var beginX = width*0.05+distinct;
+                //var distinct = 100;
+                // var widthObj = util.GetWidthObject(obj);
+                //var beginX = medium - (objlst.length*widthObj+objlst.length*distinct-distinct)/2;
+                //var beginX = width*0.05+150;
+                //alert(beginX);
+                for(var i=0;i<lstSameLevel.length;i++){
+
+                    if(lstSameLevel[i].constructor.name=="SVGRectElement")
+                    {
+                        lstSameLevel[i].x.baseVal.value=beginX+(i*distinct);
+                        var l=document.getElementById("l"+lstSameLevel[i].id);
+                        var r=document.getElementById("r"+lstSameLevel[i].id);
                         if(l!=null)
                         {
                             l.x1.baseVal.value = beginX+(i*distinct);
@@ -824,10 +1164,10 @@ class genogramSymbol {
                              
                         }
                     }
-                    else if(objlst[i].constructor.name=="SVGCircleElement"){
-                        objlst[i].cx.baseVal.value=beginX+(i*distinct)+25;
-                        var l=document.getElementById("l"+objlst[i].id);
-                        var r=document.getElementById("r"+objlst[i].id);
+                    else if(lstSameLevel[i].constructor.name=="SVGCircleElement"){
+                        lstSameLevel[i].cx.baseVal.value=beginX+(i*distinct)+25;
+                        var l=document.getElementById("l"+lstSameLevel[i].id);
+                        var r=document.getElementById("r"+lstSameLevel[i].id);
                         if(l!=null)
                         {
                             l.x = beginX+(i*distinct)+25;
@@ -836,16 +1176,73 @@ class genogramSymbol {
                             r.x = beginX+(i*distinct)+25;
                         }
                     }
-                    else if(objlst[i].constructor.name=="SVGPolygonElement"){
-                        objlst[i].points[0].x=beginX+(i*distinct);
-                        objlst[i].points[1].x=beginX+(i*distinct)+25;
-                        objlst[i].points[2].x=beginX+(i*distinct)+50;
+                    else if(lstSameLevel[i].constructor.name=="SVGPolygonElement"){
+                        lstSameLevel[i].points[0].x=beginX+(i*distinct);
+                        lstSameLevel[i].points[1].x=beginX+(i*distinct)+25;
+                        lstSameLevel[i].points[2].x=beginX+(i*distinct)+50;
+                        var l=document.getElementById("l"+lstSameLevel[i].id);
+                        var r=document.getElementById("r"+lstSameLevel[i].id);
+                        if(l!=null)
+                        {
+                            l.x1.baseVal.value = beginX+(i*distinct);
+                            
+                            l.x2.baseVal.value = beginX+(i*distinct)+50;
+                        }if(r!=null)
+                        {
+                            r.x1.baseVal.value = beginX+(i*distinct);
+                             
+                            r.x2.baseVal.value = beginX+(i*distinct)+50;
+                             
+                        }
                     }
                 }
+                }
             }
+        }
             console.log(objlst);
             //main.nextSibling.ownerSVGElement.childNodes
         }
+        GetlstChildsAndSpouse(father_id,mother_id)
+        {
+            var result = [];
+            var data = this.GetChildDataById(father_id,mother_id);
+            for(var i =0;i<data.length;i++){
+                result.push(data[i]);
+                var tmp = this.FindSpouse(data[i].id,this.spouse);
+                if(tmp.length>0){
+                    var p = [];
+                    if(tmp[0].id1==data[i].id)
+                    {
+                        p = this.GetDataById(tmp[0].id2);
+                        if(p.length>0){
+                            result.push(p[0]);
+                        }
+                    }
+                    else if(tmp[0].id2==data[i].id){
+                        p = this.GetDataById(tmp[0].id1);
+                        if(p.length>0){
+                            result.push(p[0]);
+                        }
+                    }
+                }
+            }
+            
+            return result;
+        }
+        CreateLineMidium()
+        {
+            var svg = document.getElementById('svgOne')
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', svg.width.baseVal.value/2);
+            objLine.setAttributeNS(null, 'y1', svg.y.baseVal.value);
+            objLine.setAttributeNS(null, 'x2', svg.width.baseVal.value/2);
+            objLine.setAttributeNS(null, 'y2', svg.y.baseVal.value+svg.height.baseVal.value);
+            objLine.setAttributeNS(null, 'stroke','black');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null,"id","line"+name);
+            svg.appendChild(objLine);
+        }
+
 }
 class genogramRelationship{
     constructor(spouse){
@@ -861,18 +1258,21 @@ class genogramRelationship{
      SpouseRelationship(objId1,objId2){
         var obj1 = document.getElementById(objId1);
         var obj2 = document.getElementById(objId2);
-        var result = this.spouse.filter(element=>element.id1==objId1 && element.id2==objId2);
-        if(result.length>0){
-            if(result[0].relationStatus=="married"){
-                this.Marriage(objId1,objId2);
-            }
-            if(result[0].relationStatus=="divorce"){
-                this.Engagement(objId1,objId2);
+        if(obj1!=null && obj2!=null){
+            var result = this.spouse.filter(element=>element.id1==objId1 && element.id2==objId2);
+            if(result.length>0){
+                if(result[0].relationStatus=="married"){
+                    this.Marriage(objId1,objId2);
+                }
+                if(result[0].relationStatus=="divorce"){
+                    this.Engagement(objId1,objId2);
+                }
             }
         }
         //alert(JSON.stringify(result));
      }
      Marriage(objId1,objId2){
+         var name =objId1+"-"+objId2;
          var obj1 = document.getElementById(objId1);
          var obj2 = document.getElementById(objId2);
          var distinct = 25;
@@ -893,7 +1293,7 @@ class genogramRelationship{
          objLine.setAttributeNS(null, 'y2', y2);
          objLine.setAttributeNS(null, 'stroke','black');
          objLine.setAttributeNS(null, 'stroke-width',2);
-         objLine.setAttributeNS(null,"id","line"+objId1+""+objId2);
+         objLine.setAttributeNS(null,"id","line"+name);
          document.getElementById('svgOne').appendChild(objLine);
 
          var objLine1 = document.createElementNS(svgns, 'line');
@@ -907,6 +1307,7 @@ class genogramRelationship{
          objLine1.setAttributeNS(null, 'y2', l_y2);
          objLine1.setAttributeNS(null, 'stroke','black');
          objLine1.setAttributeNS(null, 'stroke-width',2);
+         objLine1.setAttributeNS(null,"id","lineLeft"+name);
          document.getElementById('svgOne').appendChild(objLine1);
 
          var objLine2 = document.createElementNS(svgns, 'line');
@@ -920,10 +1321,12 @@ class genogramRelationship{
          objLine2.setAttributeNS(null, 'y2', r_y2);
          objLine2.setAttributeNS(null, 'stroke','black');
          objLine2.setAttributeNS(null, 'stroke-width',2);
+         objLine2.setAttributeNS(null,"id","lineRight"+name);
          document.getElementById('svgOne').appendChild(objLine2);
      }
      Engagement(objId1,objId2){
-        var obj1 = document.getElementById(objId1);
+         var name =objId1+"-"+objId2;
+         var obj1 = document.getElementById(objId1);
          var obj2 = document.getElementById(objId2);
          var distinct = 25;
          var x1,x2, y1,y2;
@@ -943,6 +1346,7 @@ class genogramRelationship{
          objLine.setAttributeNS(null, 'stroke','blue');
          objLine.setAttributeNS(null, 'stroke-width',2);
          objLine.setAttributeNS(null, 'stroke-dasharray',"5 5 5");
+         objLine.setAttributeNS(null,'id','line'+name);
          document.getElementById('svgOne').appendChild(objLine);
 
          var objLine1 = document.createElementNS(svgns, 'line');
@@ -956,6 +1360,7 @@ class genogramRelationship{
          objLine1.setAttributeNS(null, 'y2', l_y2);
          objLine1.setAttributeNS(null, 'stroke','black');
          objLine1.setAttributeNS(null, 'stroke-width',2);
+         objLine1.setAttributeNS(null,'id','lineLeft'+name);
          document.getElementById('svgOne').appendChild(objLine1);
 
          var objLine2 = document.createElementNS(svgns, 'line');
@@ -969,6 +1374,7 @@ class genogramRelationship{
          objLine2.setAttributeNS(null, 'y2', r_y2);
          objLine2.setAttributeNS(null, 'stroke','black');
          objLine2.setAttributeNS(null, 'stroke-width',2);
+         objLine2.setAttributeNS(null,'id','lineRight'+name);
          document.getElementById('svgOne').appendChild(objLine2);
      }
      
@@ -1000,13 +1406,15 @@ class Utility{
         var x=0;
         var y=0;
         var distinct=25;
+        if(obj!=null){
         if(obj.constructor.name=="SVGRectElement"){
             x = obj.x.baseVal.value;
             y = obj.y.baseVal.value;
          }
          else if(obj.constructor.name=="SVGCircleElement"){
             x = obj.cx.baseVal.value;
-            y = obj.cy.baseVal.value+obj.r.baseVal.value+distinct;
+           // y = obj.cy.baseVal.value+obj.r.baseVal.value+distinct;
+           y = obj.cy.baseVal.value-obj.r.baseVal.value;
          }
          else if(obj.constructor.name=="SVGPolygonElement"){
             x = obj.points[1].x-25;
@@ -1016,7 +1424,38 @@ class Utility{
             x = obj.x.baseVal.value;
             y = obj.y.baseVal.value;
          }
-         return [{"x":x,"y":y}];
+        }
+        return [{"x":x,"y":y}];
+    }
+    GetWidthObject(obj){
+        var width=0;
+        if(obj!=null){
+            if(obj.constructor.name=="SVGRectElement"){
+                width = obj.width.baseVal.value;
+            }
+            else if(obj.constructor.name=="SVGCircleElement"){
+                width = obj.r.baseVal.value*2;
+            }
+            else if(obj.constructor.name=="SVGPolygonElement"){
+                width = obj.points[2].x-obj.points[0].x;
+            }
+        }
+        return width;
+    }
+    GetHeightObject(obj){
+        var height=0;
+        if(obj!=null){
+            if(obj.constructor.name=="SVGRectElement"){
+                height = obj.height.baseVal.value;
+            }
+            else if(obj.constructor.name=="SVGCircleElement"){
+                height = obj.r.baseVal.value*2;
+            }
+            else if(obj.constructor.name=="SVGPolygonElement"){
+                height = obj.points[0].x-obj.points[1].x;
+            }
+        }
+        return height;
     }
 }
 //alert(JSON.stringify(data));
