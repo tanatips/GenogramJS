@@ -8,17 +8,8 @@ var data = [
         "sex":"Male",
         "father_id":"-1",
         "mother_id":"-2",
-        // "relationships":[
-        //     {
-        //         "id":"11",
-        //         "relationStatus":"married"
-        //     },
-        //     {
-        //         "id":"12",
-        //         "relationStatus":"divorce"
-        //     }
-        // ],
-        "status":"live"
+        "status":"live",
+        "picture":"images/ironman3.jpg"
     },
     {
         "id":"2",
@@ -28,8 +19,8 @@ var data = [
         "sex":"Female",
         "father_id":"-3",
         "mother_id":"-4",
-        //"relationships":"married",
-        "status":"live"
+        "status":"live",
+        "picture":"images/pepper.jpg"
     },
     {
         "id":"3",
@@ -39,7 +30,8 @@ var data = [
         "sex":"Male",
         "father_id":"1",
         "mother_id":"2",
-        "status":"live"
+        "status":"live",
+        "picture":"images/ironman3.jpg"
     }
     ,{
         "id":"4",
@@ -49,7 +41,8 @@ var data = [
         "sex":"Male",
         "father_id":"1",
         "mother_id":"2",
-        "status":"live"
+        "status":"live",
+        "picture":"images/ironman3.jpg"
     }
     ,
     {
@@ -60,7 +53,8 @@ var data = [
         "sex":"Female",
         "father_id":"1",
         "mother_id":"2",
-        "status":"live"
+        "status":"live",
+        "picture":"images/pepper.jpg"
     }
      ,
     {
@@ -71,7 +65,8 @@ var data = [
         "sex":"Male",
         "father_id":"1",
         "mother_id":"2",
-        "status":"dead"
+        "status":"dead",
+        "picture":"images/ironman3.jpg"
     }
      ,
     {
@@ -83,6 +78,7 @@ var data = [
         "father_id":"1",
         "mother_id":"2",
         "status":"Pregnancy",
+        "picture":"images/pepper.jpg"
     },
     {
         "id":"8",
@@ -92,7 +88,8 @@ var data = [
         "sex":"Female",
         "father_id":"1",
         "mother_id":"2",
-        "status":"live"
+        "status":"live",
+        "picture":"images/pepper.jpg"
     }
     ,
     {
@@ -103,7 +100,8 @@ var data = [
         "sex":"Female",
         "father_id":"1",
         "mother_id":"2",
-        "status":"MisCarriage"
+        "status":"MisCarriage",
+        "picture":"images/pepper.jpg"
     }   
     ,
     {
@@ -114,7 +112,8 @@ var data = [
         "sex":"Female",
         "father_id":"-1",
         "mother_id":"-2",
-        "status":"live"
+        "status":"live",
+        "picture":"images/pepper.jpg"
     }
     ,
     {
@@ -125,7 +124,8 @@ var data = [
         "sex":"Female",
         "father_id":"3",
         "mother_id":"-2",
-        "status":"live"
+        "status":"live",
+        "picture":"images/pepper.jpg"
     }
     ,
     {
@@ -136,7 +136,8 @@ var data = [
         "sex":"Female",
         "father_id":"-1",
         "mother_id":"-2",
-        "status":"live"
+        "status":"live",
+        "picture":"images/pepper.jpg"
     }
     ,
     {
@@ -147,7 +148,8 @@ var data = [
         "sex":"Female",
         "father_id":"3",
         "mother_id":"12",
-        "status":"live"
+        "status":"live",
+        "picture":"images/pepper.jpg"
     }
     
     ,
@@ -159,7 +161,8 @@ var data = [
         "sex":"Male",
         "father_id":"13",
         "mother_id":"16",
-        "status":"live"
+        "status":"live" ,
+        "picture":"images/ironman3.jpg"
     }
     ,
     {
@@ -170,7 +173,8 @@ var data = [
         "sex":"Male",
         "father_id":"-2",
         "mother_id":"-2",
-        "status":"live"
+        "status":"live",
+        "picture":"images/ironman3.jpg"
     }
     ,
     {
@@ -181,7 +185,8 @@ var data = [
         "sex":"Female",
         "father_id":"-2",
         "mother_id":"-2",
-        "status":"live"
+        "status":"live",
+        "picture":"images/pepper.jpg"
     },
     {
         "id":"18",
@@ -191,7 +196,8 @@ var data = [
         "sex":"Female",
         "father_id":"13",
         "mother_id":"16",
-        "status":"live"
+        "status":"live",
+        "picture":"images/pepper.jpg"
     }
     ,
     {
@@ -202,7 +208,8 @@ var data = [
         "sex":"Female",
         "father_id":"13",
         "mother_id":"16",
-        "status":"live"
+        "status":"live",
+        "picture":"images/pepper.jpg"
     },
     {
         "id":"20",
@@ -212,7 +219,8 @@ var data = [
         "sex":"Male",
         "father_id":"-1",
         "mother_id":"-1",
-        "status":"live"
+        "status":"live",
+        "picture":"images/ironman3.jpg"
     },
     {
         "id":"21",
@@ -222,7 +230,8 @@ var data = [
         "sex":"Male",
         "father_id":"20",
         "mother_id":"19",
-        "status":"live"
+        "status":"live",
+        "picture":"images/ironman3.jpg"
     },
     {
         "id":"22",
@@ -232,7 +241,8 @@ var data = [
         "sex":"Male",
         "father_id":"4",
         "mother_id":"17",
-        "status":"live"
+        "status":"live",
+        "picture":"images/ironman3.jpg"
     },
     {
         "id":"23",
@@ -242,7 +252,8 @@ var data = [
         "sex":"Male",
         "father_id":"",
         "mother_id":"",
-        "status":"live"
+        "status":"live",
+        "picture":"images/ironman3.jpg"
     },
     {
         "id":"24",
@@ -252,7 +263,8 @@ var data = [
         "sex":"Male",
         "father_id":"5",
         "mother_id":"23",
-        "status":"live"
+        "status":"live",
+        "picture":"images/ironman3.jpg"
     },
     {
         "id":"25",
@@ -262,7 +274,8 @@ var data = [
         "sex":"Male",
         "father_id":"",
         "mother_id":"",
-        "status":"live"
+        "status":"live",
+        "picture":"images/ironman3.jpg"
     },
     {
         "id":"26",
@@ -272,7 +285,8 @@ var data = [
         "sex":"Male",
         "father_id":"21",
         "mother_id":"25",
-        "status":"live"
+        "status":"live",
+        "picture":"images/ironman3.jpg"
     },
     {
         "id":"27",
@@ -282,7 +296,8 @@ var data = [
         "sex":"Female",
         "father_id":"21",
         "mother_id":"25",
-        "status":"live"
+        "status":"live",
+        "picture":"images/pepper.jpg"
     },
     {
         "id":"28",
@@ -292,7 +307,8 @@ var data = [
         "sex":"Male",
         "father_id":"24",
         "mother_id":"27",
-        "status":"live"
+        "status":"live",
+        "picture":"images/ironman3.jpg"
     }
     ,
     {
@@ -303,7 +319,8 @@ var data = [
         "sex":"Male",
         "father_id":"24",
         "mother_id":"27",
-        "status":"live"
+        "status":"live",
+        "picture":"images/ironman3.jpg"
     }
     ,
     {
@@ -312,9 +329,106 @@ var data = [
         "last_name":"last",
         "birthday":'01/01/1997',
         "sex":"Female",
-        "father_id":"24",
-        "mother_id":"27",
-        "status":"live"
+        "father_id":"",
+        "mother_id":"",
+        "status":"live",
+        "picture":"images/pepper.jpg"
+    }
+    ,
+    {
+        "id":"31",
+        "first_name":"Mr. 31",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Female",
+        "father_id":"",
+        "mother_id":"",
+        "status":"live",
+        "picture":"images/pepper.jpg"
+    }
+    ,
+    {
+        "id":"32",
+        "first_name":"Mr. 28",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Female",
+        "father_id":"",
+        "mother_id":"",
+        "status":"live",
+        "picture":"images/pepper.jpg"
+    }
+    ,
+    {
+        "id":"33",
+        "first_name":"Mr. 28",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Female",
+        "father_id":"28",
+        "mother_id":"31",
+        "status":"live",
+        "picture":"images/pepper.jpg"
+    }
+    ,
+    {
+        "id":"34",
+        "first_name":"Mr. 28",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Male",
+        "father_id":"",
+        "mother_id":"",
+        "status":"live",
+        "picture":"images/ironman3.jpg"
+    },
+    {
+        "id":"35",
+        "first_name":"Mr. 28",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Female",
+        "father_id":"33",
+        "mother_id":"34",
+        "status":"live",
+        "picture":"images/pepper.jpg"
+    }
+    ,
+    {
+        "id":"36",
+        "first_name":"Mr. 28",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Male",
+        "father_id":"",
+        "mother_id":"",
+        "status":"live",
+        "picture":"images/ironman3.jpg",
+        "child_type":"adopted_child"
+    },
+    {
+        "id":"37",
+        "first_name":"Mr. 28",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Female",
+        "father_id":"8",
+        "mother_id":"36",
+        "status":"live",
+        "picture":"images/pepper.jpg",
+        "child_type":"adopted_child"
+    },
+    {
+        "id":"38",
+        "first_name":"Mr. 28",
+        "last_name":"last",
+        "birthday":'01/01/1997',
+        "sex":"Female",
+        "father_id":"8",
+        "mother_id":"36",
+        "status":"live",    
+        "picture":"images/pepper.jpg",
+        "child_type":"foster_child"
     }
     
 ];
@@ -322,42 +436,63 @@ var spouse = [
         {
             "id1":"1",
             "id2":"2",
-            "relationStatus":"married"
-        }
-        ,
+            "relationStatus":"marriage"
+        },
         {
             "id1":"3",
             "id2":"12",
-            "relationStatus":"divorce"
+            "relationStatus":"engagement"
         },
         {
             "id1":"13",
             "id2":"16",
-            "relationStatus":"divorce"
-        }
-        ,
+            "relationStatus":"separation_in_fact"
+        },
         {
             "id1":"4",
             "id2":"17",
-            "relationStatus":"divorce"
-        }
-        ,
+            "relationStatus":"legal_separation"
+        },
         {
             "id1":"19",
             "id2":"20",
-            "relationStatus":"divorce"
+            "relationStatus":"legal_cohabitation"
         },
         {
             "id1":"5",
             "id2":"23",
-            "relationStatus":"married"
+            "relationStatus":"cohabitation"
         },
         {
             "id1":"24",
             "id2":"27",
-            "relationStatus":"married"
+            "relationStatus":"love_affair"
         }
-    ];
+        ,
+        {
+            "id1":"28",
+            "id2":"31",
+            "relationStatus":"commited_relationship"
+        }
+        ,
+        {
+            "id1":"29",
+            "id2":"32",
+            "relationStatus":"non_sentimental_cohabitation_and_separation"
+        }
+        ,
+        {
+            "id1":"33",
+            "id2":"34",
+            "relationStatus":"temporary_relation_one_night_stand"
+        }
+        ,
+        {
+            "id1":"8",
+            "id2":"36",
+            "relationStatus":"temporary_relation_one_night_stand"
+        }
+];
 class genogramSymbol {
     
     constructor(data,spouse){
@@ -417,11 +552,11 @@ class genogramSymbol {
             obj.setAttributeNS(null, 'stroke','rgb(0,0,0)');
             obj.setAttributeNS(null, 'id', idName);
             document.getElementById('svgOne').appendChild(obj);
-            obj.addEventListener("click",function(e){    
-                alert(e.clientX+" "+e.clientY);
-            });
-            obj.addEventListener("mouseout",function(){
-            });
+            
+            this.AddEvents(obj);
+            this.AddTextObject(idName,x,y);
+            this.AddPictureObject(idName,x,y);
+            
         }
         Female (idName,x,y){
             var radios = 25;
@@ -434,12 +569,10 @@ class genogramSymbol {
             obj.setAttributeNS(null, 'stroke','rgb(0,0,0)');
             obj.setAttributeNS(null, 'id', idName);
             document.getElementById('svgOne').appendChild(obj);
-            
-            obj.addEventListener("click",function(e){    
-                alert(e.clientX+" "+e.clientY);
-            });
-            obj.addEventListener("mouseout",function(){
-            });
+
+            this.AddEvents(obj);
+            this.AddTextObject(idName,x,y);
+            this.AddPictureObject(idName,x,y);
         }
         Pet (idName,x,y){
             var obj = document.createElementNS(svgns, 'polygon');
@@ -447,7 +580,6 @@ class genogramSymbol {
             var height = 50;
             obj.setAttributeNS(null, 'cx', x);
             obj.setAttributeNS(null, 'cy', y);
-           // obj.setAttributeNS(null, 'points', (75+(x/2))+","+(50+y/2)+" "+(50+x/2)+","+(100+y/2)+" "+(100+x/2)+","+(100+y/2));
             obj.setAttributeNS(null, 'points',  x+","+(y+height/2)+" "+(x+width/2)+","+(y)+" "+(x+width/2)+","+(y)+" "+(x+width)+","+(y+height/2)+" "+(x+width/2)+","+(y+height));
             obj.setAttributeNS(null, 'fill','#FFFFFF');
             obj.setAttributeNS(null, 'stroke','#000000');
@@ -455,11 +587,9 @@ class genogramSymbol {
             obj.setAttributeNS(null, 'id', idName);
             document.getElementById('svgOne').appendChild(obj);
             
-            obj.addEventListener("click",function(e){    
-                alert(e.clientX+" "+e.clientY);
-            });
-            obj.addEventListener("mouseout",function(){
-            });
+            this.AddEvents(obj);
+            this.AddTextObject(idName,x,y);
+            this.AddPictureObject(idName,x,y);
         }
         Pregnancy (idName,x,y){
             var obj = document.createElementNS(svgns, 'polygon');
@@ -467,7 +597,6 @@ class genogramSymbol {
             var height = 50;
             obj.setAttributeNS(null, 'cx', x);
             obj.setAttributeNS(null, 'cy', y);
-           // obj.setAttributeNS(null, 'points', (75+(x/2))+","+(50+y/2)+" "+(50+x/2)+","+(100+y/2)+" "+(100+x/2)+","+(100+y/2));
             obj.setAttributeNS(null, 'points',  x+","+(y+height)+" "+(x+width/2)+","+(y)+" "+(x+width)+","+(y+height));
             obj.setAttributeNS(null, 'fill','#FFFFFF');
             obj.setAttributeNS(null, 'stroke','#000000');
@@ -475,11 +604,10 @@ class genogramSymbol {
             obj.setAttributeNS(null, 'id', idName);
             document.getElementById('svgOne').appendChild(obj);
             
-            obj.addEventListener("click",function(e){    
-                alert(e.clientX+" "+e.clientY);
-            });
-            obj.addEventListener("mouseout",function(){
-            });
+            this.AddEvents(obj);
+            this.AddTextObject(idName,x,y);
+            this.AddPictureObject(idName,x,y);
+         
         }
         MisCarriage(idName,x,y){
             
@@ -495,11 +623,10 @@ class genogramSymbol {
             obj.setAttributeNS(null, 'id', idName);
             document.getElementById('svgOne').appendChild(obj);
             
-            obj.addEventListener("click",function(e){    
-                alert(e.clientX+" "+e.clientY);
-            });
-            obj.addEventListener("mouseout",function(){
-            });
+            this.AddEvents(obj);
+            this.AddTextObject(idName,x,y);
+            this.AddPictureObject(idName,x,y);
+ 
             var objLine = document.createElementNS(svgns, 'line');
             objLine.setAttributeNS(null, 'x1', x);
             objLine.setAttributeNS(null, 'y1', y);
@@ -519,7 +646,8 @@ class genogramSymbol {
             objLine2.setAttributeNS(null, 'stroke-width',2);
             objLine2.setAttributeNS(null, 'id','r'+idName);
             document.getElementById('svgOne').appendChild(objLine2);
-
+ 
+            
         }
         Abortion(idName,x,y){
             var obj = document.createElementNS(svgns, 'polygon');
@@ -534,11 +662,10 @@ class genogramSymbol {
             obj.setAttributeNS(null, 'id', idName);
             document.getElementById('svgOne').appendChild(obj);
             
-            obj.addEventListener("click",function(e){    
-                alert(e.clientX+" "+e.clientY);
-            });
-            obj.addEventListener("mouseout",function(){
-            });
+            this.AddEvents(obj);
+            this.AddTextObject(idName,x,y);
+            this.AddPictureObject(idName,x,y);
+
             var objLine = document.createElementNS(svgns, 'line');
             objLine.setAttributeNS(null, 'x1', x);
             objLine.setAttributeNS(null, 'y1', y);
@@ -565,7 +692,6 @@ class genogramSymbol {
             objLine3.setAttributeNS(null, 'stroke','black');
             objLine3.setAttributeNS(null, 'stroke-width',2);
             document.getElementById('svgOne').appendChild(objLine3);
-
         }
         MaleDeath(idName,x,y){
             var obj = document.createElementNS(svgns, 'rect');
@@ -580,6 +706,10 @@ class genogramSymbol {
             obj.setAttributeNS(null, 'stroke','rgb(0,0,0)');
             obj.setAttributeNS(null, 'id', idName);
             document.getElementById('svgOne').appendChild(obj);
+
+            this.AddEvents(obj);
+            this.AddTextObject(idName,x,y);
+            this.AddPictureObject(idName,x,y);
 
             var objLine = document.createElementNS(svgns, 'line');
             objLine.setAttributeNS(null, 'x1', x);
@@ -600,12 +730,7 @@ class genogramSymbol {
             objLine2.setAttributeNS(null, 'stroke-width',2);
             objLine2.setAttributeNS(null,'id',"r"+idName);
             document.getElementById('svgOne').appendChild(objLine2);
-
-            obj.addEventListener("click",function(e){    
-                alert(e.clientX+" "+e.clientY);
-            });
-            obj.addEventListener("mouseout",function(){
-            });
+            
         }
         FemaleDeath (idName,x,y){
             var radios = 25;
@@ -618,6 +743,11 @@ class genogramSymbol {
             obj.setAttributeNS(null, 'stroke','rgb(0,0,0)');
             obj.setAttributeNS(null, 'id', idName);
             document.getElementById('svgOne').appendChild(obj);
+
+            this.AddEvents(obj);
+            this.AddTextObject(idName,x,y);
+            this.AddPictureObject(idName,x,y);
+            
             var objLine = document.createElementNS(svgns, 'line');
             objLine.setAttributeNS(null, 'x1', x);
             objLine.setAttributeNS(null, 'y1', y);
@@ -637,11 +767,6 @@ class genogramSymbol {
             objLine2.setAttributeNS(null, 'stroke-width',2);
             objLine2.setAttributeNS(null, 'id','r'+idName);
             document.getElementById('svgOne').appendChild(objLine2);
-            obj.addEventListener("click",function(e){    
-                alert(e.clientX+" "+e.clientY);
-            });
-            obj.addEventListener("mouseout",function(){
-            });
         }
         GenderUnknown(idName,x,y){
             var obj = document.createElementNS(svgns, 'text');
@@ -652,17 +777,13 @@ class genogramSymbol {
             obj.setAttributeNS(null,'font-size','3em');
             obj.setAttributeNS(null, 'id', idName);
             document.getElementById('svgOne').appendChild(obj);
-            obj.addEventListener("click",function(e){    
-                alert(e.clientX+" "+e.clientY);
-            });
-            obj.addEventListener("mouseout",function(){
-            });
-        }
-       
 
+            this.AddEvents(obj);
+            this.AddTextObject(idName,x,y);
+            this.AddPictureObject(idName,x,y);
+        }
         GetDataById(id){
             var result=[];
-            //alert(JSON.stringify(this.data));
             for(var i = 0;i<this.data.length;i++){
                 if(this.data[i]["id"]==id){
                     result.push(this.data[i]);
@@ -785,13 +906,27 @@ class genogramSymbol {
                                 y2= pos[0].y;
                             }
                             
-                            
+                            var personInfo= this.GetDataById(lstChild[i].id);
                             var objLine = document.createElementNS(svgns, 'line');
                             objLine.setAttributeNS(null, 'x1', x1+((1+i)*step));
                             objLine.setAttributeNS(null, 'y1', y1);
                             objLine.setAttributeNS(null, 'x2', x2);
                             objLine.setAttributeNS(null, 'y2', y2);
                             objLine.setAttributeNS(null, 'stroke','black');
+                            if(personInfo.length>0){
+                                if(personInfo[0].child_type!=null){
+                                    if(personInfo[0].child_type=="adopted_child"){
+                                        objLine.setAttributeNS(null, 'stroke','blue');
+                                        objLine.setAttributeNS(null, 'stroke-dasharray','8 2 8 2');
+                                    }
+                                    else if(personInfo[0].child_type=="foster_child"){
+                                        objLine.setAttributeNS(null, 'stroke','green');
+                                        objLine.setAttributeNS(null, 'stroke-dasharray','3 5 3 5');
+                                        
+                                    }
+                                }
+                            }
+                          
                             objLine.setAttributeNS(null, 'stroke-width',2);
                             objLine.setAttributeNS(null,"id","line"+name);
                             document.getElementById('svgOne').appendChild(objLine);
@@ -800,6 +935,7 @@ class genogramSymbol {
                 }
                }
             }
+            
         }
         GenerateGenogram(id){
             var result=this.GetDataById(id);
@@ -938,7 +1074,7 @@ class genogramSymbol {
                     this.CreateRelationship(this.lstObjLevelIntSort[i])
                 }
             }
-       }
+        }
         GetFamilyDetail (id,level,index){
             // Spouses
             //alert(JSON.stringify(this.spouse));
@@ -948,10 +1084,10 @@ class genogramSymbol {
                  if(data.length>0)
                  {
                     if(data[0].sex=="Male"){
-                        this.CMale(id,100+(100*index),200+(100*level));
+                        this.CMale(id,100+(100*index),(120*(level+1)));
                     }
                     else if(data[0].sex=="Female"){
-                        this.CFemale(id,100+(100*index),200+(100*level));
+                        this.CFemale(id,100+(100*index),(120*(level+1)));
                     }
                  }
              }
@@ -1150,11 +1286,23 @@ class genogramSymbol {
                         lstSameLevel[i].x.baseVal.value=beginX+(i*distinct);
                         var l=document.getElementById("l"+lstSameLevel[i].id);
                         var r=document.getElementById("r"+lstSameLevel[i].id);
+                        var objTxt = document.getElementById("txt"+lstSameLevel[i].id);
+                        var objImage = document.getElementById("image"+lstSameLevel[i].id);
+                        if(objImage!=null){
+                            objImage.x.baseVal.value=  lstSameLevel[i].x.baseVal.value+(lstSameLevel[i].width.baseVal.value/2)-(objImage.width.baseVal.value/2);
+                            objImage.y.baseVal.value=  lstSameLevel[i].y.baseVal.value+(lstSameLevel[i].height.baseVal.value/2)-(objImage.height.baseVal.value/2);
+                       
+                        }
+                        if(objTxt!=null){
+                            objTxt.x.baseVal[0].value=  lstSameLevel[i].x.baseVal.value+(lstSameLevel[i].width.baseVal.value/2)-(objTxt.textLength.baseVal.value/2);
+                            objTxt.y.baseVal[0].value=  lstSameLevel[i].y.baseVal.value+(lstSameLevel[i].height.baseVal.value/2)-(objTxt.getBBox().height/2);
+                        } 
                         if(l!=null)
                         {
                             l.x1.baseVal.value = beginX+(i*distinct);
                             
                             l.x2.baseVal.value = beginX+(i*distinct)+50;
+                            
                            
                         }if(r!=null)
                         {
@@ -1168,12 +1316,26 @@ class genogramSymbol {
                         lstSameLevel[i].cx.baseVal.value=beginX+(i*distinct)+25;
                         var l=document.getElementById("l"+lstSameLevel[i].id);
                         var r=document.getElementById("r"+lstSameLevel[i].id);
+                        var objTxt = document.getElementById("txt"+lstSameLevel[i].id);
+                        if(objTxt!=null){
+                            objTxt.x.baseVal[0].value = lstSameLevel[i].cx.baseVal.value-(objTxt.textLength.baseVal.value/2);;
+                            objTxt.y.baseVal[0].value = lstSameLevel[i].cy.baseVal.value-(objTxt.getBBox().height/2);;
+                        }
+                        var objImage = document.getElementById("image"+lstSameLevel[i].id);
+                        if(objImage!=null){
+                            objImage.x.baseVal.value=  lstSameLevel[i].cx.baseVal.value -(objImage.width.baseVal.value/2);
+                            objImage.y.baseVal.value=  lstSameLevel[i].cy.baseVal.value -(objImage.height.baseVal.value/2);
+                       
+                        }
                         if(l!=null)
                         {
-                            l.x = beginX+(i*distinct)+25;
-                        }if(r!=null)
+                            l.x1.baseVal.value = beginX+(i*distinct);
+                            l.x2.baseVal.value = beginX+(i*distinct)+50;
+                        }
+                        if(r!=null)
                         {
-                            r.x = beginX+(i*distinct)+25;
+                            r.x1.baseVal.value = beginX+(i*distinct);
+                            r.x2.baseVal.value = beginX+(i*distinct)+50;
                         }
                     }
                     else if(lstSameLevel[i].constructor.name=="SVGPolygonElement"){
@@ -1182,11 +1344,23 @@ class genogramSymbol {
                         lstSameLevel[i].points[2].x=beginX+(i*distinct)+50;
                         var l=document.getElementById("l"+lstSameLevel[i].id);
                         var r=document.getElementById("r"+lstSameLevel[i].id);
+                        var objTxt = document.getElementById("txt"+lstSameLevel[i].id);
+                        if(objTxt!=null){
+                            objTxt.x.baseVal[0].value = beginX+(i*distinct)+25;
+                            objTxt.y.baseVal[0].value = lstSameLevel[i].points[1].y;
+                        }
+                        var objImage = document.getElementById("image"+lstSameLevel[i].id);
+                        if(objImage!=null){
+                            objImage.x.baseVal.value=  beginX+(i*distinct)+25 -(objImage.width.baseVal.value/2);
+                            objImage.y.baseVal.value=  lstSameLevel[i].points[1].y+(objImage.height.baseVal.value/2);
+                       
+                        }
                         if(l!=null)
                         {
                             l.x1.baseVal.value = beginX+(i*distinct);
                             
                             l.x2.baseVal.value = beginX+(i*distinct)+50;
+                            
                         }if(r!=null)
                         {
                             r.x1.baseVal.value = beginX+(i*distinct);
@@ -1242,18 +1416,482 @@ class genogramSymbol {
             objLine.setAttributeNS(null,"id","line"+name);
             svg.appendChild(objLine);
         }
+        AddPictureObject(idName,x,y){
+            var data = this.GetDataById(idName);
+            var width=30;
+            var height=30;
+            var objImage = document.createElementNS(svgns, 'image');
+            objImage.innerHTML=idName;
+            objImage.setAttributeNS(null,'x',x);
+            objImage.setAttributeNS(null,'y',y);
+            if(data.length>0){
+                if(data[0].picture!=null){
+                    objImage.setAttributeNS(null,'href',data[0].picture);
+                    objImage.setAttributeNS(null,"height",height);
+                    objImage.setAttributeNS(null,"width",width);
+                }
+                objImage.setAttributeNS(null, 'id', "image"+idName);
+                document.getElementById('svgOne').appendChild(objImage);
+                this.AddEvents(objImage);
+            }
+        }
+        AddTextObject(idName,x,y){
+            var objtxt = document.createElementNS(svgns, 'text');
+            objtxt.innerHTML=idName;
+            objtxt.setAttributeNS(null,'x',x);
+            objtxt.setAttributeNS(null,'y',y);
+            objtxt.setAttributeNS(null, 'id', "txt"+idName);
+            document.getElementById('svgOne').appendChild(objtxt);
+        }
+        AddEvents(obj){
+            if(obj!=null){
+                obj.addEventListener("click",function(e){    
+                    alert(idName);
+                });
+                obj.addEventListener("mouseout",function(){
+                });
+            }
+        }
 
 }
 class genogramRelationship{
-    constructor(spouse){
+     constructor(spouse){
         this.spouse=spouse;
         //alert(JSON.stringify(this.data));
-    }
+     }
      CreateSpouseRelationship()
      {
          for(var i=0;i<this.spouse.length;i++){
             this.SpouseRelationship(this.spouse[i].id1,this.spouse[i].id2);
          }
+     }
+     AddLineRelation(x1,y1,x2,y2,name,relation)
+     {
+        var objLine = document.createElementNS(svgns, 'line');
+        if(relation=="Marriage")
+        {
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','black');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null,"id","line"+name);
+            document.getElementById('svgOne').appendChild(objLine)
+        }
+        else if(relation=="Engagement")
+        {
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','blue');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null, 'stroke-dasharray',"10 5 10 5");
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine)
+             
+        }
+        else if(relation=="EngagementAndCohabitation")
+        {
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','blue');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null, 'stroke-dasharray',"10 5 10 5");
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine)
+            
+        }
+        else if(relation=="EngagementAndSeparation")
+        {
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', ((x1+x2)/2)-10);
+            objLine.setAttributeNS(null, 'y1', y1-10);
+            objLine.setAttributeNS(null, 'x2', ((x1+x2)/2)+10);
+            objLine.setAttributeNS(null, 'y2', y2+10);
+            objLine.setAttributeNS(null, 'stroke','blue');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine);
+        }
+        else if(relation=="Nullity"){
+
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','#810d00');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine);
+
+            var objM1 = document.createElementNS(svgns, 'line');
+            objM1.setAttributeNS(null, 'x1', ((x1+x2)/2)+10-10);
+            objM1.setAttributeNS(null, 'y1', y1-10);
+            objM1.setAttributeNS(null, 'x2', ((x1+x2)/2)-10-10);
+            objM1.setAttributeNS(null, 'y2', y2+10);
+            objM1.setAttributeNS(null, 'stroke','#810d00');
+            objM1.setAttributeNS(null, 'stroke-width',2);
+            objM1.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objM1);
+    
+            var objM2 = document.createElementNS(svgns, 'line');
+            objM2.setAttributeNS(null, 'x1', ((x1+x2)/2)+10);
+            objM2.setAttributeNS(null, 'y1', y1-10);
+            objM2.setAttributeNS(null, 'x2', ((x1+x2)/2)-10);
+            objM2.setAttributeNS(null, 'y2', y2+10);
+            objM2.setAttributeNS(null, 'stroke','#810d00');
+            objM2.setAttributeNS(null, 'stroke-width',2);
+            objM2.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objM2);
+    
+            var objM3 = document.createElementNS(svgns, 'line');
+            objM3.setAttributeNS(null, 'x1', ((x1+x2)/2)+10+10);
+            objM3.setAttributeNS(null, 'y1', y1-10);
+            objM3.setAttributeNS(null, 'x2', ((x1+x2)/2)-10+10);
+            objM3.setAttributeNS(null, 'y2', y2+10);
+            objM3.setAttributeNS(null, 'stroke','#810d00');
+            objM3.setAttributeNS(null, 'stroke-width',2);
+            objM3.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objM3);
+    
+        }
+        else if(relation=="LegalCohabitation"){
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','blue');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null, 'stroke-dasharray',"8 3 3 3");
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine);
+        }
+        else if(relation=="LegalCohabitationAndSeparationInFact"){
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','blue');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null, 'stroke-dasharray',"8 3 3 3");
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine);
+
+            var objM = document.createElementNS(svgns, 'line');
+            objM.setAttributeNS(null, 'x1', ((x1+x2)/2)-10);
+            objM.setAttributeNS(null, 'y1', y1-10);
+            objM.setAttributeNS(null, 'x2', ((x1+x2)/2)+10);
+            objM.setAttributeNS(null, 'y2', y2+10);
+            objM.setAttributeNS(null, 'stroke','blue');
+            objM.setAttributeNS(null, 'stroke-width',2);
+            objM.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objM);
+    
+        }
+        else if(relation=="LegalCohabitationAndOfficialSeparation"){
+
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','blue');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null, 'stroke-dasharray',"8 3 3 3");
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine);
+    
+            var objM = document.createElementNS(svgns, 'line');
+            objM.setAttributeNS(null, 'x1', ((x1+x2)/2)+10);
+            objM.setAttributeNS(null, 'y1', y1-10);
+            objM.setAttributeNS(null, 'x2', ((x1+x2)/2)-10);
+            objM.setAttributeNS(null, 'y2', y2+10);
+            objM.setAttributeNS(null, 'stroke','blue');
+            objM.setAttributeNS(null, 'stroke-width',2);
+            objM.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objM);
+    
+        }
+        else if(relation=="CommitedRelationShip"){
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','blue');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null, 'stroke-dasharray',"5 5 5");
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine);
+        }
+        else if(relation=="Cohabitation"){
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','blue');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null, 'stroke-dasharray',"5 2 2 2 2 2");
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine);
+    
+        }
+        else if(relation=="CohabitationAndSeparation"){
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','blue');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null, 'stroke-dasharray',"5 5 5");
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine);
+        }
+        else if(relation=="NonSentimentalCohabitation"){
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','blue');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null, 'stroke-dasharray',"2 2 2 2 5 2");
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine);
+    
+        }
+        else if(relation=="NonSentimentalCohabitationAndSeparation"){
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','blue');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null, 'stroke-dasharray',"2 2 2 2 5 2");
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine); 
+
+            var objM = document.createElementNS(svgns, 'line');
+            objM.setAttributeNS(null, 'x1', ((x1+x2)/2)-10);
+            objM.setAttributeNS(null, 'y1', y1-10);
+            objM.setAttributeNS(null, 'x2', ((x1+x2)/2)+10);
+            objM.setAttributeNS(null, 'y2', y2+10);
+            objM.setAttributeNS(null, 'stroke','blue');
+            objM.setAttributeNS(null, 'stroke-width',2);
+            objM.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objM);   
+        }
+        else if(relation=="CasualRelationshipOrDating"){
+            
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','blue');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null, 'stroke-dasharray',"2 2 2");
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine);
+    
+        }
+        else if(relation=="CasualRelationshipAndSeparation"){
+            
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','blue');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null, 'stroke-dasharray',"2 2 2");
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine);
+        }
+        else if(relation=="TemporaryRelationOneNightStand"){
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','blue');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null, 'stroke-dasharray',"2 6 6 6");
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine);
+        }
+        else if(relation=="Divorce"){
+        
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','#810d00');
+            objLine.setAttributeNS(null, 'stroke-width',2); 
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine);
+
+            var objM1 = document.createElementNS(svgns, 'line');
+            objM1.setAttributeNS(null, 'x1', ((x1+x2)/2)+5);
+            objM1.setAttributeNS(null, 'y1', y1-10);
+            objM1.setAttributeNS(null, 'x2', ((x1+x2)/2)-15);
+            objM1.setAttributeNS(null, 'y2', y2+10);
+            objM1.setAttributeNS(null, 'stroke','#810d00');
+            objM1.setAttributeNS(null, 'stroke-width',2); 
+            objM1.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objM1);
+
+            var objM2 = document.createElementNS(svgns, 'line');
+            objM2.setAttributeNS(null, 'x1', ((x1+x2)/2)+15);
+            objM2.setAttributeNS(null, 'y1', y1-10);
+            objM2.setAttributeNS(null, 'x2', ((x1+x2)/2)-5);
+            objM2.setAttributeNS(null, 'y2', y2+10);
+            objM2.setAttributeNS(null, 'stroke','#810d00');
+            objM2.setAttributeNS(null, 'stroke-width',2); 
+            objM2.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objM2);
+
+        }
+        else if(relation=="SeparationInFact"){
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','#810d00');
+            objLine.setAttributeNS(null, 'stroke-width',2); 
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine);
+    
+            var objM = document.createElementNS(svgns, 'line');
+            objM.setAttributeNS(null, 'x1', ((x1+x2)/2)-10);
+            objM.setAttributeNS(null, 'y1', y1-10);
+            objM.setAttributeNS(null, 'x2', ((x1+x2)/2)+10);
+            objM.setAttributeNS(null, 'y2', y2+10);
+            objM.setAttributeNS(null, 'stroke','#810d00');
+            objM.setAttributeNS(null, 'stroke-width',2); 
+            objM.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objM);
+        }
+        else if(relation=="LegalSeparation")   {
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','#810d00');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine);
+        }
+        else if(relation=="LoveAffair"){
+            var objLine = document.createElementNS(svgns, 'line');
+            objLine.setAttributeNS(null, 'x1', x1);
+            objLine.setAttributeNS(null, 'y1', y1);
+            objLine.setAttributeNS(null, 'x2', x2);
+            objLine.setAttributeNS(null, 'y2', y2);
+            objLine.setAttributeNS(null, 'stroke','pink');
+            objLine.setAttributeNS(null, 'stroke-width',2);
+            objLine.setAttributeNS(null, 'stroke-dasharray',"2 6 6 6");
+            objLine.setAttributeNS(null,'id','line'+name);
+            document.getElementById('svgOne').appendChild(objLine);
+        }
+     }
+     AddLineLeftRight(x1,y1,x2,y2,distinct){
+        var objLine1 = document.createElementNS(svgns, 'line');
+        var l_x1= x1;
+        var l_y1= y1;
+        var l_x2 = x1;
+        var l_y2 = y1-distinct;
+        objLine1.setAttributeNS(null, 'x1', l_x1);
+        objLine1.setAttributeNS(null, 'y1', l_y1);
+        objLine1.setAttributeNS(null, 'x2', l_x2);
+        objLine1.setAttributeNS(null, 'y2', l_y2);
+        objLine1.setAttributeNS(null, 'stroke','black');
+        objLine1.setAttributeNS(null, 'stroke-width',2);
+        objLine1.setAttributeNS(null,"id","lineLeft"+name);
+        document.getElementById('svgOne').appendChild(objLine1);
+
+        var objLine2 = document.createElementNS(svgns, 'line');
+        var r_x1= x2;
+        var r_y1= y2;
+        var r_x2 = x2;
+        var r_y2 = y2-distinct;
+        objLine2.setAttributeNS(null, 'x1', r_x1);
+        objLine2.setAttributeNS(null, 'y1', r_y1);
+        objLine2.setAttributeNS(null, 'x2', r_x2);
+        objLine2.setAttributeNS(null, 'y2', r_y2);
+        objLine2.setAttributeNS(null, 'stroke','black');
+        objLine2.setAttributeNS(null, 'stroke-width',2);
+        objLine2.setAttributeNS(null,"id","lineRight"+name);
+        document.getElementById('svgOne').appendChild(objLine2);
+     }
+     AddHomeObject(o)
+     {
+        var cx= (o.x1+o.x2)/2;
+        var cy= o.y1;
+        var objHome = document.createElementNS(svgns, 'polygon');
+        objHome.setAttributeNS(null, 'cx', cx);
+        objHome.setAttributeNS(null, 'cy', cy);
+        objHome.setAttributeNS(null, 'points',  (cx-10)+","+(cy-5)+" "+(cx)+","+(cy-10)+" "+(cx+10)+","+(cy-5)+" "+(cx+10)+","+(cy+5)+" "+(cx-10)+","+(cy+5));
+        objHome.setAttributeNS(null, 'fill','#FFFFFF');
+        objHome.setAttributeNS(null, 'stroke','blue');
+        objHome.setAttributeNS(null, 'stroke-width',2);
+        objHome.setAttributeNS(null,'id','poly'+name);
+        document.getElementById('svgOne').appendChild(objHome);
+     }
+     AddSeparationObject(o,color){
+        var x1=o.x1;
+        var x2=o.x2;
+        var y1=o.y1;
+        var y2=o.y2;
+        var objM = document.createElementNS(svgns, 'line');
+        objM.setAttributeNS(null, 'x1', ((x1+x2)/2)-10);
+        objM.setAttributeNS(null, 'y1', y1-10);
+        objM.setAttributeNS(null, 'x2', ((x1+x2)/2)+10);
+        objM.setAttributeNS(null, 'y2', y2+10);
+        objM.setAttributeNS(null, 'stroke',color);
+        objM.setAttributeNS(null, 'stroke-width',2);
+        objM.setAttributeNS(null,'id','line'+name);
+        document.getElementById('svgOne').appendChild(objM);   
+     }
+     GetDetailObject(objId1,objId2)
+     {
+        var name =objId1+"-"+objId2;
+        var obj1 = document.getElementById(objId1);
+        var obj2 = document.getElementById(objId2);
+        var distinct = 25;
+        var x1,x2, y1,y2;
+        var x1,x2, y1,y2;
+        var util =new  Utility();
+        var data = util.GetPositionXY(obj1);
+        x1=data[0].x;
+        y1=data[0].y;
+        var data = util.GetPositionXY(obj2);
+        x2=data[0].x;
+        y2=data[0].y;
+        return [
+                {"x1":x1,
+                 "y1":y1,
+                 "x2":x2,
+                 "y2":y2,
+                 "distinct":distinct,
+                 "name":name
+                }
+               ];
      }
      SpouseRelationship(objId1,objId2){
         var obj1 = document.getElementById(objId1);
@@ -1261,124 +1899,281 @@ class genogramRelationship{
         if(obj1!=null && obj2!=null){
             var result = this.spouse.filter(element=>element.id1==objId1 && element.id2==objId2);
             if(result.length>0){
-                if(result[0].relationStatus=="married"){
+                if(result[0].relationStatus=="marriage"){
                     this.Marriage(objId1,objId2);
                 }
-                if(result[0].relationStatus=="divorce"){
+                else if(result[0].relationStatus=="separation_in_fact"){
+                    this.SeparationInFact(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="legal_separation"){
+                    this.LegalSeparation(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="divorce"){
+                    this.Divorce(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="engagement"){
                     this.Engagement(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="engagement_and_cohabitation"){
+                    this.EngagementAndCohabitation(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="engagement_and_separation"){
+                    this.EngagementAndSeparation(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="nullity"){
+                    this.Nullity(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="legal_cohabitation"){
+                    this.LegalCohabitation(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="legal_cohabitation_and_separation_in_fact"){
+                    this.LegalCohabitationAndSeparationInFact(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="legal_cohabitation_and_official_separation"){
+                    this.LegalCohabitationAndOfficialSeparation(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="commited_relationship"){
+                    this.CommitedRelationShip(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="cohabitation"){
+                    this.Cohabitation(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="cohabitation_and_separation"){
+                    this.CohabitationAndSeparation(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="non_sentimental_cohabitation"){
+                    this.NonSentimentalCohabitation(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="non_sentimental_cohabitation_and_separation"){
+                    this.NonSentimentalCohabitationAndSeparation(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="casual_relationship_or_dating"){
+                    this.CasualRelationshipOrDating(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="casual_relationship_and_separation"){
+                    this.CasualRelationshipAndSeparation(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="temporary_relation_one_night_stand"){
+                    this.TemporaryRelationOneNightStand(objId1,objId2);
+                }
+                else if(result[0].relationStatus=="love_affair"){
+                    this.LoveAffair(objId1,objId2);
                 }
             }
         }
         //alert(JSON.stringify(result));
      }
      Marriage(objId1,objId2){
-         var name =objId1+"-"+objId2;
-         var obj1 = document.getElementById(objId1);
-         var obj2 = document.getElementById(objId2);
-         var distinct = 25;
-         var x1,x2, y1,y2;
-         var x1,x2, y1,y2;
-         var util =new  Utility();
-         var data = util.GetPositionXY(obj1);
-         x1=data[0].x;
-         y1=data[0].y;
-         var data = util.GetPositionXY(obj2);
-         x2=data[0].x;
-         y2=data[0].y;
+         
+         var relation="Marriage";
+         var obj = this.GetDetailObject(objId1,objId2);
+         if(obj.length>0)
+         {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+         }
 
-         var objLine = document.createElementNS(svgns, 'line');
-         objLine.setAttributeNS(null, 'x1', x1);
-         objLine.setAttributeNS(null, 'y1', y1);
-         objLine.setAttributeNS(null, 'x2', x2);
-         objLine.setAttributeNS(null, 'y2', y2);
-         objLine.setAttributeNS(null, 'stroke','black');
-         objLine.setAttributeNS(null, 'stroke-width',2);
-         objLine.setAttributeNS(null,"id","line"+name);
-         document.getElementById('svgOne').appendChild(objLine);
-
-         var objLine1 = document.createElementNS(svgns, 'line');
-         var l_x1= x1;
-         var l_y1= y1;
-         var l_x2 = x1;
-         var l_y2 = y1-distinct;
-         objLine1.setAttributeNS(null, 'x1', l_x1);
-         objLine1.setAttributeNS(null, 'y1', l_y1);
-         objLine1.setAttributeNS(null, 'x2', l_x2);
-         objLine1.setAttributeNS(null, 'y2', l_y2);
-         objLine1.setAttributeNS(null, 'stroke','black');
-         objLine1.setAttributeNS(null, 'stroke-width',2);
-         objLine1.setAttributeNS(null,"id","lineLeft"+name);
-         document.getElementById('svgOne').appendChild(objLine1);
-
-         var objLine2 = document.createElementNS(svgns, 'line');
-         var r_x1= x2;
-         var r_y1= y2;
-         var r_x2 = x2;
-         var r_y2 = y2-distinct;
-         objLine2.setAttributeNS(null, 'x1', r_x1);
-         objLine2.setAttributeNS(null, 'y1', r_y1);
-         objLine2.setAttributeNS(null, 'x2', r_x2);
-         objLine2.setAttributeNS(null, 'y2', r_y2);
-         objLine2.setAttributeNS(null, 'stroke','black');
-         objLine2.setAttributeNS(null, 'stroke-width',2);
-         objLine2.setAttributeNS(null,"id","lineRight"+name);
-         document.getElementById('svgOne').appendChild(objLine2);
      }
      Engagement(objId1,objId2){
-         var name =objId1+"-"+objId2;
-         var obj1 = document.getElementById(objId1);
-         var obj2 = document.getElementById(objId2);
-         var distinct = 25;
-         var x1,x2, y1,y2;
-         var util =new  Utility();
-         var data = util.GetPositionXY(obj1);
-         x1=data[0].x;
-         y1=data[0].y;
-         var data = util.GetPositionXY(obj2);
-         x2=data[0].x;
-         y2=data[0].y;
-         
-         var objLine = document.createElementNS(svgns, 'line');
-         objLine.setAttributeNS(null, 'x1', x1);
-         objLine.setAttributeNS(null, 'y1', y1);
-         objLine.setAttributeNS(null, 'x2', x2);
-         objLine.setAttributeNS(null, 'y2', y2);
-         objLine.setAttributeNS(null, 'stroke','blue');
-         objLine.setAttributeNS(null, 'stroke-width',2);
-         objLine.setAttributeNS(null, 'stroke-dasharray',"5 5 5");
-         objLine.setAttributeNS(null,'id','line'+name);
-         document.getElementById('svgOne').appendChild(objLine);
-
-         var objLine1 = document.createElementNS(svgns, 'line');
-         var l_x1= x1;
-         var l_y1= y1;
-         var l_x2 = x1;
-         var l_y2 = y1-distinct;
-         objLine1.setAttributeNS(null, 'x1', l_x1);
-         objLine1.setAttributeNS(null, 'y1', l_y1);
-         objLine1.setAttributeNS(null, 'x2', l_x2);
-         objLine1.setAttributeNS(null, 'y2', l_y2);
-         objLine1.setAttributeNS(null, 'stroke','black');
-         objLine1.setAttributeNS(null, 'stroke-width',2);
-         objLine1.setAttributeNS(null,'id','lineLeft'+name);
-         document.getElementById('svgOne').appendChild(objLine1);
-
-         var objLine2 = document.createElementNS(svgns, 'line');
-         var r_x1= x2;
-         var r_y1= y2;
-         var r_x2 = x2;
-         var r_y2 = y2-distinct;
-         objLine2.setAttributeNS(null, 'x1', r_x1);
-         objLine2.setAttributeNS(null, 'y1', r_y1);
-         objLine2.setAttributeNS(null, 'x2', r_x2);
-         objLine2.setAttributeNS(null, 'y2', r_y2);
-         objLine2.setAttributeNS(null, 'stroke','black');
-         objLine2.setAttributeNS(null, 'stroke-width',2);
-         objLine2.setAttributeNS(null,'id','lineRight'+name);
-         document.getElementById('svgOne').appendChild(objLine2);
+        var relation="Engagement";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+        }
      }
-     
+     EngagementAndCohabitation(objId1,objId2){
+        var relation="EngagementAndCohabitation";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+            this.AddHomeObject(o);
+        }
+     }
+     EngagementAndSeparation(objId1,objId2){
 
+        var relation="EngagementAndSeparation";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+        }
+     }
+     Nullity(objId1,objId2){
+        var relation="Nullity";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+        }
+     }
+     LegalCohabitation(objId1,objId2){
+        var relation="LegalCohabitation";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+            this.AddHomeObject(o);
+        }
+     }
+     LegalCohabitationAndSeparationInFact(objId1,objId2){
+        var relation="LegalCohabitationAndSeparationInFact";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+        }
+     }
+     LegalCohabitationAndOfficialSeparation(objId1,objId2){
+        var relation="LegalCohabitationAndOfficialSeparation";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+        }
+     }
+     CommitedRelationShip(objId1,objId2){
+        var relation="CommitedRelationShip";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+        }
+     }
+     Cohabitation(objId1,objId2){
+        var relation="Cohabitation";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+            this.AddHomeObject(o);
+        } 
+     }
+     CohabitationAndSeparation(objId1,objId2){
+        var relation="CohabitationAndSeparation";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+            this.AddSeparationObject(o,"blue");
+        } 
+     }
+     NonSentimentalCohabitation(objId1,objId2){
+        var relation="NonSentimentalCohabitation";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+            this.AddHomeObject(o);
+        } 
+     }
+     NonSentimentalCohabitationAndSeparation(objId1,objId2){
+        var relation="NonSentimentalCohabitationAndSeparation";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+            this.AddSeparationObject(o,"blue");
+        } 
+     }
+     CasualRelationshipOrDating(objId1,objId2){
+        var relation="CasualRelationshipOrDating";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+        } 
+     }
+     CasualRelationshipAndSeparation(objId1,objId2){
+        var relation="CasualRelationshipAndSeparation";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+            this.AddSeparationObject(o,"blue");
+        }
+     }
+     TemporaryRelationOneNightStand(objId1,objId2){
+        var relation="TemporaryRelationOneNightStand";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+        }
+     }
+     Divorce(objId1,objId2){
+        var relation="Divorce";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+        }
+     }
+     SeparationInFact(objId1,objId2){
+        var relation="SeparationInFact";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+        }
+     }
+     LegalSeparation(objId1,objId2){
+        var relation="LegalSeparation";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);
+            this.AddSeparationObject(o,'#810d00');
+        }
+     }
+     LoveAffair(objId1,objId2){
+        var relation="LoveAffair";
+        var obj = this.GetDetailObject(objId1,objId2);
+        if(obj.length>0)
+        {
+            var o = obj[0];
+            this.AddLineRelation(o.x1,o.y1,o.x2,o.y2,o.name,relation);
+            this.AddLineLeftRight(o.x1,o.y1,o.x2,o.y2,o.distinct);        
+        }
+     }
 }
 class Utility{
     GetPositionXY(obj){
@@ -1458,7 +2253,7 @@ class Utility{
         return height;
     }
 }
-//alert(JSON.stringify(data));
+
 myGenogram = new genogramSymbol(data,spouse);
 //myGenogram.GenerateGenogram(3);
 myGenogram.GenerateGenogram2(3);
